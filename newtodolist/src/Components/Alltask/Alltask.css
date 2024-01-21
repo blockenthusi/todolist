@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.allTaskHolder{
+    width: 70%;
+    height: 100%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.allTaskFrame{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lefts{
+    width: 50%;
+    height: 50px;
+    display: flex;
+}
+.butHolder{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+
+
+}
+
+.rights{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: white; */
+}
+
+.remind{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.TaskCard{
+    width: 70%;
+    height: max-content;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.taskCard{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text{
+    width: 70%;
+    height: 100%;
+    color: blue;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+   align-items: center;
+   gap: 10px;
+
+}
+
+.taskCards{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    padding: 4px;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    gap: 10px;
+    padding: 10px;
+}
+
+input{
+    width: 70%;
+    height: 100%;
+    color: blue;
+    font-size: 12px;
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.RegisterPop{
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 55%;
+    z-index: 9999;
+    /* background-color: white; */
+    transition : all 350mm  ease-in;
+
+}
+.PopCard{
+    width: 60%;
+    height: 30%;
+    background-color: blue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-top: 5%;
+    border-radius: 5px;
+    animation: backInUp;
+    animation-duration: 2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer
+}
+
+.ClosePop{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+    color: red;
+    cursor: pointer;
+}
+
+.inputt{
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.butz{
+    width: 20%;
+    height: 35px;
+    background-color: white;
+    border: none;
+    color: blue;
+    border-radius: 8px;
+    font-weight: 900;
+}
+

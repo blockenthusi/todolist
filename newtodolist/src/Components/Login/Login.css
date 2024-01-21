@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.loginHolder{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url("./hour.jpg");
+    background-size: cover;
+    justify-content: center;
+}
+
+.loginWrap{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.top{
+     width: 100%;
+     height: 8%;
+}
+
+.down{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    flex-direction: column;
+}
+.card{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fields{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.high{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.topz{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    background-color: white;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    color: blue;
+
+}
+.topz input{
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 100%;
+    font-size: 12px;
+    cursor: pointer;
+    color: blue;
+}
+
+
+.button{
+    width: 40%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button button{
+    width: 40%;
+    height: 45px;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.button button:hover{
+    background-color: rgb(83, 184, 243);
+}
+
+.inf{
+    width: 40%;
+    height: 20%;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: blue;
+}
+
+
+
+
+
+
+
